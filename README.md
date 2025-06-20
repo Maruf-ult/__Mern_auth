@@ -28,5 +28,62 @@ _Coming Soon_
 ## ⚙️ Installation
 
 1. **Clone the repository**
-   ```bash
+   ```
    git clone https://github.com/Maruf-ult/__Mern_auth
+   ```
+
+2. Open the terminal in the repository folder:
+ 
+   ```
+   cd MERN_Auth
+    ```
+
+3. Install backend dependencies:
+
+   ```
+   cd server
+   npm install
+    ```
+
+4. Install frontend dependencies:
+   
+   ```
+   cd client
+   npm install
+     ```
+5. Configure environment variables
+     Create a .env file in the server directory with the following:
+       ```
+       MONGO_URI=your_mongo_db_connection_string
+       SMTP_EMAIL=your_email@example.com
+       SMTP_PASS=your_smtp_password
+       ```
+    
+
+
+6. Configure MongoDB:
+- Create an account on MongoDB Compass.
+- Create a database and obtain your MongoDB URI.
+- Create a `.env` file in the root directory and add your MongoDB URI:
+
+  ```  MONGO_URI=your_mongodb_uri  ```
+
+7. Run the backend application:
+   
+   ```
+   cd server
+   npm start
+   ```
+
+8. Run the frontend application:
+   
+   ```
+   cd client
+   npm run dev
+   ```   
+
+   
+
+Feel free to adapt this template to your project's specific requirements. Happy coding! 🚀
+
+: GitHub - Maruf-ult/__Mern_auth
