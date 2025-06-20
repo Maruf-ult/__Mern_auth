@@ -29,4 +29,4 @@ _Coming Soon_
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/MERN_Auth.git
+   git clone https://github.com/Maruf-ult/__Mern_auth
