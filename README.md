@@ -53,15 +53,17 @@ _Coming Soon_
      ```
 5. Configure environment variables
      Create a .env file in the server directory with the following:
-       ```
+
+     ```
        MONGO_URI=your_mongo_db_connection_string
        SMTP_EMAIL=your_email@example.com
        SMTP_PASS=your_smtp_password
-       ```
+   
+     ```
     
 
 
-6. Configure MongoDB:
+7. Configure MongoDB:
 - Create an account on MongoDB Compass.
 - Create a database and obtain your MongoDB URI.
 - Create a `.env` file in the root directory and add your MongoDB URI:
